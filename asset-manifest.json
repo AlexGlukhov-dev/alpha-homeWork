@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alpha-homeWork/static/css/main.54123f2b.css",
+    "main.js": "/alpha-homeWork/static/js/main.89ba70bb.js",
+    "static/js/787.97a9aee6.chunk.js": "/alpha-homeWork/static/js/787.97a9aee6.chunk.js",
+    "index.html": "/alpha-homeWork/index.html",
+    "main.54123f2b.css.map": "/alpha-homeWork/static/css/main.54123f2b.css.map",
+    "main.89ba70bb.js.map": "/alpha-homeWork/static/js/main.89ba70bb.js.map",
+    "787.97a9aee6.chunk.js.map": "/alpha-homeWork/static/js/787.97a9aee6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54123f2b.css",
+    "static/js/main.89ba70bb.js"
+  ]
+}
