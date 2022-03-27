@@ -14,6 +14,8 @@
     top: 10px;
     right: 10px;
     cursor: pointer;
+    border: none;
+    background: none;
 
     & svg {
       fill: #f2fafa;
@@ -61,6 +63,11 @@
       font-weight: 700;
     }
 
+    .like {
+      border: none;
+      background: inherit;
+    }
+
     .like svg {
       width: 26px;
       height: 26px;
@@ -69,10 +76,18 @@
 
     .like-no-active svg path{
       fill: #ffcdd2;
+
+      &:hover {
+        fill: #f5a4ab;
+      }
     }
 
     .like-active svg path{
       fill: #fc6875;
+
+      &:hover {
+        fill: #f6adb4;
+      }
     }
   }
 }

@@ -1,7 +1,4 @@
 .sort-cards {
-  position: fixed;
-  top: 25px;
-  left: 25px;
   display: flex;
   justify-content: space-between;
   width: 250px;
@@ -13,11 +10,27 @@
     line-height: 32px;
   }
 
+
+
+  & button {
+    cursor: pointer;
+    border: none;
+    background: inherit;
+  }
+
   .check-active svg path{
     fill: #4e4e4e;
+
+    &:hover {
+      fill: #516d50;
+    }
   }
 
   .check-no-active svg path{
     fill: #78e36f;
+
+    &:hover {
+      fill: #516d50;
+    }
   }
 }

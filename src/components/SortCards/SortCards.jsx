@@ -18,7 +18,7 @@ const SortCards = () => {
     return (
         <div className={classes['sort-cards']}>
             <span>{sortText}</span>
-            <div onClick={sortHandle} className={active ? classes['check-active'] : classes['check-no-active']}>
+            <button onClick={sortHandle} className={active ? classes['check-active'] : classes['check-no-active']}>
                 <svg fill="none" height="32" id="icon" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
                     <path
                           d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2ZM14,21.5908l-5-5L10.5906,15,14,18.4092,21.41,11l1.5957,1.5859Z"/>
@@ -27,7 +27,7 @@ const SortCards = () => {
                     <rect className="cls-1" data-name="&lt;Transparent Rectangle&gt;" height="32"
                           id="_Transparent_Rectangle_" width="32"/>
                 </svg>
-            </div>
+            </button>
 
         </div>
     );
