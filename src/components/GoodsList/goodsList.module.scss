@@ -1,0 +1,9 @@
+.goods-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px auto;
+}

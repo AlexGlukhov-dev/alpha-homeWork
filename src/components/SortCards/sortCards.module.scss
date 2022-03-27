@@ -1,0 +1,23 @@
+.sort-cards {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 25px;
+
+  & span{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .check-active svg path{
+    fill: #4e4e4e;
+  }
+
+  .check-no-active svg path{
+    fill: #78e36f;
+  }
+}
