@@ -51,7 +51,6 @@ const appData = createSlice({
                     }
                 })
             }
-
         },
         likedCard(state){
             if(state.goodsLiked){
